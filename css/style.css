@@ -1,0 +1,57 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+body{
+    color:#000;
+    font: 400 14px/24px 'Roboto Slab', serif;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+
+input{
+    outline: none;
+}
+ table{
+     border-collapse: collapse;
+ }
+ .wrapper{
+     overflow: hidden;
+ }
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.main_banner{
+    min-height: 100vh;
+    background: url("../img/Home-Background.jpg") no-repeat 50% 50%;
+    background-size: cover;
+
+}
+.header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 34px 0;
+}.logo{
+    font:700 24px/36px 'Montserrat', Arial, Tahoma, sans-serif;
+    color:#fff;
+}
+.navigation a {
+    color:#fff;
+    font:400 14px/24px 'Montserrat', Arial, Tahoma, sans-serif;
+    padding: 5px 13px;
+}
