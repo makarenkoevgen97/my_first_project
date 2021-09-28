@@ -142,4 +142,66 @@ input{
     }
 
 }
+.services {
+    padding-top: 100px; 
+    padding-bottom: 100px;
+}
+.services h1 {
+    text-align: center;
+    color:#000;
+    font:500 20px/24px 'Montserrat', Arial, sans-serif; 
+}
+ .hr_line {
+   margin-top: 30px;
+   padding: 0;
+    height: 0;
+    width: 50px;
+	border: none;
+	border-top: 2px solid #333; 
+    text-align: center;
+    
+}
+.services h2 {
+    text-align: center;
+    color:#000;
+    font:400 16px/24px 'Roboto Slab', Arial, serif;
+    margin-top: 32px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 78px;
+    text-align: center;
+}
+.clo {
+    text-align: center;
+    margin-top: 75px;
+}
+.clo2 {
+    margin: 0 45px;
+}
 
+.clo1 h3 {
+margin-top: 26px;
+font:500 14px/24px 'Montserrat', Arial, sans-serif;
+}
+.clo1 h4 {
+    margin-top: 28px;
+    font:400 14px/24px 'Roboto Slab', Arial, serif;
+    }
+    .clo2 h3 {
+        margin-top: 26px;
+        font:500 14px/24px 'Montserrat', Arial, sans-serif;
+        }
+        .clo2 h4 {
+            margin-top: 28px;
+            font:400 14px/24px 'Roboto Slab', Arial, serif;
+            }
+            .clo3 h3 {
+                margin-top: 26px;
+                font:500 14px/24px 'Montserrat', Arial, sans-serif;
+                }
+                .clo3 h4 {
+                    margin-top: 28px;
+                    font:400 14px/24px 'Roboto Slab', Arial, serif;
+                    }
