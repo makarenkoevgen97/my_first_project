@@ -7,9 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap"
-        rel="stylesheet">
-    <meta name=" viewport" cotent="width=device-vight, initial-scale=1">
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -21,6 +24,7 @@
                       <a href="/" class="logo">
                         Startup
                     </a>
+                    <span class="mobile_menu"></span>
                     <nav class="navigation">
                         <a href="#home">Home</a>
                         <a href="#services">Servis</a>
@@ -31,9 +35,31 @@
                         <a href="#contacts">Contakts</a>
                     </nav>
                      </header>
+                     <div class="baner-text">
+                         <h1>WELCOME TO STARTUP</h1>
+                         <h2>Your Favourite Creative Agency Template </h2>
+                         <a href="#" class="button">
+                           GET STARTED
+                         </a>
+                        </div>
         </section>
         <section id="services"></section>
-        <section id="about"></section>
+        <section id="about">
+            <div class="container">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">Slide 1</div>
+                      <div class="swiper-slide">Slide 2</div>
+                      <div class="swiper-slide">Slide 3</div>
+                      <div class="swiper-slide">Slide 4 </div>
+                      
+                    </div>
+                  
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  </div>
+                </div>
+        </section>
         <section id="works"></section>
         <section id="blog"></section>
         <section id="clients"></section>
@@ -41,6 +67,7 @@
                 </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
 
 </body>
