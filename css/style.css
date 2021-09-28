@@ -55,3 +55,91 @@ input{
     font:400 14px/24px 'Montserrat', Arial, Tahoma, sans-serif;
     padding: 5px 13px;
 }
+.mobile_menu{
+    display: none;
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    background:url('../img/free-icon-menu-482609.png') no-repeat 50%;
+    background-size: 100%;
+
+
+}
+.baner-text{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+}
+
+
+.button{
+    display: inline-block;
+    height: 50px;
+    width: 180px;
+    margin-top: 55px;
+    padding: 15px;
+    color:#fff;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    font:500 16px 'Montserrat',Arial,sans-serif;
+    cursor: pointer;
+    transition: 0.3s; 
+    text-align: center;
+    box-sizing: border-box;
+}
+.button:hover{
+    background:#fff;
+    color:#c0301c;
+}
+.baner-text{
+    height: 715px;
+    display: flex;
+    flex-flow: column;
+}
+.baner-text h1{
+    font:500 48px/24px 'Montserrat', Arial, sans-serif;
+    color:#fff;
+}
+.baner-text h2{
+    font:400 20px/24px 'Roboto Slab', serif;
+    color: #fff;
+    margin-top: 34px;
+}
+
+@media (max-width:786px){
+    .mobile_menu{display: inline-block;}
+    .navigation{
+        display: none;
+        position: absolute;
+        top:100%;
+        width: 100%;
+        left:0;
+        text-align: center;
+        z-index: 10;
+        border: 1px solid white;
+    }
+    .header{
+        position: relative;
+    }
+    .navigation a{
+        display: block;
+
+    }
+    .logo{
+        text-align: center;
+        display: block;
+        align-content: center;
+    }
+    .baner-text h1{
+        margin-top: 34px;
+        font:500 34px/24px 'Montserrat', Arial, sans-serif;
+    }
+    .baner-text h2{
+        font:400 16px/24px 'Roboto Slab', serif;
+        color: #fff;
+        margin-top: 34px;
+    }
+
+}
+
